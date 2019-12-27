@@ -9,3 +9,5 @@
 L = list(filter(lambda x: x % 2 ==1, range(1,20)))
 for i in L:
     print(i)
+sum = lambda a, b: a*b
+print(sum(2,6))
