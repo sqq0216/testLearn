@@ -1,4 +1,4 @@
-# 类
+# 面向对象编程
 1. 类的封装（将数据处理在类内部实现），继承，多态（继承之后可以继承方法也可以覆盖方法有自己的特色，即多态）
 2. 使用__slots__，定义一个特殊的__slots__变量，来限制该class实例能添加的属性，对子类不起作用
 3. property广泛应用在类的定义中，可以让调用者写出简短的代码，同时保证对参数进行必要的检查
@@ -35,9 +35,13 @@
     - .bind绑定端口
     - resvfrom sendto 传输数据
     - close关闭
-# WEB编程
+# WEB开发
 1. http协议（get post put 等请求）
 2. WSGI接口：通过函数相应HTTP请求（即编写符合WSGI标准的HTTP处理函数）
 3. web 框架
 4. 模板 
+# 访问数据库
+1. sqlite ：轻量级的关系型数据库，python内置，使用同jdbc相似
+2. mysql :需要安装驱动，操作与jdbc类似
+3. SQLAlchemy：python中最有名的ORM（Object-Relational Mapping）框架，把关系数据库的表结构映射到对象上
 

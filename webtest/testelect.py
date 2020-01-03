@@ -1,9 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import unittest
+#import unittest
 import time
 #from openpyxl import workbook
 import xlwt
+# 使用selenium自动化完成网页数据的查询与保存
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(5)

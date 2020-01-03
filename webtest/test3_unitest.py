@@ -1,6 +1,7 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+# unitest单元测试框架的使用
 
 # 测试用例类继承testcase
 class PythonOrgSearch(unittest.TestCase):

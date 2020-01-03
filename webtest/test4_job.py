@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
 import time
-
+# unitest 与 selenium配合使用完成job查找并打印
 class jobfind(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
