@@ -39,6 +39,8 @@
 1. 前进——driver.forward()
 2. 后退——driver.back()
 3. 刷新——driver.refresh()
+### webdriver中的常用方法
+1. 
 ### 鼠标
 ## 自动化测试模型
 1. 模块化与参数化
