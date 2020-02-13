@@ -1,5 +1,7 @@
 # web 自动化测试
 ## 学习关键点：封装、PO、组织用例、框架设计、BDD\TDD(保证代码质量，功能)
+## 简介
+web自动化测试即UI自动化测试，通过
 ## 环境搭建
 1. python语言
 2. python第三方库selenium webdriver(主流的开源框架)————pip 安装
@@ -40,8 +42,9 @@
 2. 后退——driver.back()
 3. 刷新——driver.refresh()
 ### webdriver中的常用方法
-1. 
+1. clear()\send_keys('value')\click()\submit()\size\text\get_attribute(id\type\name)\is_displayed()
 ### 鼠标
+ccccccccccccccccccccccccccccccccccccccccccc
 ## 自动化测试模型
 1. 模块化与参数化
 2. 读取数据文件

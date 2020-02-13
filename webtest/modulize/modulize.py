@@ -5,7 +5,7 @@ class Log:
     #初始化方法初始化driver
     def __init__(self, driver):
         self.driver = driver
-    
+    # bug未解决，无法定位frame元素
     def login(self,username, password):
         # fr = self.driver.find_element_by_xpath("//iframe[starts-with(@id, 'x-URS-iframe')]")
         # self.driver.switch_to.frame(fr)
