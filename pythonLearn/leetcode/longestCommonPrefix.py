@@ -1,3 +1,5 @@
+#最长公共前缀
+
 class Solution:
     def longestCommonPrefix(self, strs) -> str:
         res = []

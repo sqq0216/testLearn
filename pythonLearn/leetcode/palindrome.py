@@ -1,3 +1,5 @@
+#判断是否为回文数
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if(x < 0):

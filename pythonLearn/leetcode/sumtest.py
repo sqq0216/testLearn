@@ -1,3 +1,5 @@
+#两数之和
+
 sum = [2, 7, 3, 6]
 target = 9
 # for j in range(len(sum)):

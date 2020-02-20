@@ -1,4 +1,6 @@
 '''
+删掉链表中指定的一个节点
+
 注意事项：若链表只有一个节点，操作后将为空
 '''
 # Definition for singly-linked list.

@@ -1,3 +1,5 @@
+#整数反转
+
 x = 1534236469
 flag = -1 if x<0 else 1
 x_new = x*flag
