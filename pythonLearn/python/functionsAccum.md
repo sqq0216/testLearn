@@ -23,3 +23,13 @@
        - 3.为已有函数添加额外的功能
 7. 偏函数（functools.partial）：把一个函数的某些参数给固定住（也就是设置默认值），返回一个新的函数，调用这个新函数会更简单。比如：int2 = functools.partial(int, base=2)
 8. 匿名函数 lambda
+## 库
+1. os.path.（import os）
+- abspath(path)---输入相对路径，返回绝对路径
+- basename(path)---返回路径的最后的文件名
+- dirname(path)---返回文件的路径（除去文件名）
+- ……
+2. sys.path(import sys)
+- python程序中使用 import XXX 时，python解析器会在当前目录、已安装和第三方模块中搜索 xxx，如果都搜索不到就会报错。使用sys.path.append()方法可以临时添加搜索路径，方便更简洁的import其他包和模块。这种方法导入的路径会在python程序退出后失效。
+- 定义搜索优先顺序
+  - sys.path.insert(1, "./crnn")定义搜索路径的优先顺序，序号从0开始，表示最大优先级，sys.path.insert()加入的也是临时搜索路径，程序退出后失效。

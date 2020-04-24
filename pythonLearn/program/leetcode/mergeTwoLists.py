@@ -54,4 +54,4 @@ if __name__ == "__main__":
         list.append(res.val)
         res = res.next
     print(list)
-
+    

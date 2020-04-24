@@ -43,6 +43,7 @@
   + yagmail第三方库
 - page object（对每一页元素定位操作的封装）
  + page object:自动化测试开发中应该遵循的一种设计模式，其设计思想是将元素定位与元素操作进行分层（当前端内容发生改变时，只需要维护page层的元素定位）
+ + 将每个页面看作一个对象，完成元素定位和元素操作
  + poium测试库：基于selenium和appium的page object测试库，pip安装，提供了更加简单的元素定位方法
 ## pytest(pip安装)
 ### 与unittest单元测试框架的不同

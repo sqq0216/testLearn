@@ -6,5 +6,8 @@
 #     else:
 #         print("not")
 
-for i in range(6,10,-1):
-    print(i)
+# for i in range(6,10,-1):
+#     print(i)
+list = [1,2,3]
+tar = 2
+print(list.index(tar))
